@@ -172,9 +172,7 @@ Poll-Results-Visualizer/
 ├── main.py
 ├── requirements.txt
 └── README.md
-```
-
-=======
+``````
 
 ---
 
