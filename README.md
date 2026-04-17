@@ -173,8 +173,7 @@ Poll-Results-Visualizer/
 ├── requirements.txt
 └── README.md
 ```
-<<<<<<< HEAD
-git clone https://github.com/Vayu-143/Poll-Results-Visualizer
+
 =======
 
 ---
