@@ -93,7 +93,7 @@ Data Generation → Data Cleaning → Analysis → Visualization → Dashboard �
 ### 1️⃣ Clone the Repository
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/Vayu-143/Poll-Results-Visualizer
 cd Poll-Results-Visualizer
 ```
 
