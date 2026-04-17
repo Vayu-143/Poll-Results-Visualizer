@@ -1,70 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Vayunandan | Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
 
-<body>
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
-<!-- HEADER -->
-<header>
-    <h1>👨‍💻 Vayunandan Mishra</h1>
-    <p>Data Analyst | Python | Streamlit | Data Visualization</p>
-</header>
+header {
+    padding: 40px;
+}
 
-<!-- ABOUT -->
-<section>
-    <h2>📌 About Me</h2>
-    <p>
-        I am a passionate Data Analyst skilled in Python, Pandas, and Data Visualization.
-        I build end-to-end analytics projects and dashboards to extract meaningful insights.
-    </p>
-</section>
+h1 {
+    font-size: 40px;
+}
 
-<!-- PROJECT -->
-<section>
-    <h2>📊 Featured Project</h2>
+.card {
+    background: #1e293b;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
 
-    <div class="project-card">
-        <h3>Poll Results Visualizer</h3>
-        <p>
-            End-to-end data analytics dashboard that processes, analyzes, and visualizes poll data.
-        </p>
+.project-card {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 8px;
+}
 
-        <div class="buttons">
-            <a href="https://github.com/Vayu-143/Poll-Results-Visualizer" target="_blank">🔗 GitHub</a>
-            <a href="https://poll-results-visualizer-rrd77mb6ytuwkw3vbnbnz9.streamlit.app" target="_blank">🌐 Live Demo</a>
-        </div>
-    </div>
-</section>
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
-<!-- SKILLS -->
-<section>
-    <h2>💼 Skills</h2>
+.buttons a:hover {
+    background: #0ea5e9;
+}
 
-    <div class="skills">
-        <span>Python</span>
-        <span>Pandas</span>
-        <span>NumPy</span>
-        <span>Data Analysis</span>
-        <span>Visualization</span>
-        <span>Streamlit</span>
-        <span>Git & GitHub</span>
-    </div>
-</section>
+.skills span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background: #334155;
+    border-radius: 5px;
+}
 
-<!-- CONTACT -->
-<section>
-    <h2>📬 Contact</h2>
-    <p>Email: vayumishra143@gmail.com</p>
-    <p>LinkedIn: https://www.linkedin.com/in/vayunandan-mishra-9590302a2</p>
-</section>
-
-<footer>
-    <p>© 2026 Vayunandan Mishra | Portfolio</p>
-</footer>
-
-</body>
-</html>
+footer {
+    margin-top: 20px;
+    padding: 20px;
+}
