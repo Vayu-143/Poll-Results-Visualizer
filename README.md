@@ -184,8 +184,10 @@ git clone https://github.com/Vayu-143/Poll-Results-Visualizer
 ### 1️⃣ Clone Repository
 
 ```bash
+
 git clone https://github.com/Vayu-143/Poll-Results-Visualizer.git
 cd Poll-Results-Visualizer
+
 ```
 
 ---
