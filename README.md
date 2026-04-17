@@ -185,7 +185,6 @@ git clone https://github.com/Vayu-143/Poll-Results-Visualizer
 
 ```bash
 git clone https://github.com/Vayu-143/Poll-Results-Visualizer.git
->>>>>>> 8dc8367 (Final README with GitHub + Live links)
 cd Poll-Results-Visualizer
 ```
 
