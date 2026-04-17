@@ -1,23 +1,47 @@
 # 📊 Poll Results Visualizer Dashboard
 
-🚀 A complete end-to-end data analytics project that processes, analyzes, and visualizes poll/survey data using Python and Streamlit.
+🚀 A complete **end-to-end Data Analytics project** that processes, analyzes, and visualizes poll/survey data using Python and an interactive Streamlit dashboard.
+
+---
+
+## 🌐 Live Demo
+
+👉 https://poll-results-visualizer-rrd77mb6ytuwkw3vnbnbz9.streamlit.app
+
+---
+
+## 📂 GitHub Repository
+
+👉 https://github.com/Vayu-143/Poll-Results-Visualizer
 
 ---
 
 ## 🎯 Problem Statement
 
-Organizations collect large volumes of survey and poll data but often struggle to extract meaningful insights quickly.
+Organizations collect large amounts of survey and poll data but struggle to:
+
+* Extract meaningful insights
+* Analyze trends across demographics
+* Visualize results effectively
 
 ---
 
 ## 💡 Solution
 
-This project builds a **Poll Results Visualizer** that:
+This project provides a **Poll Results Visualizer** that:
 
 * Cleans and processes raw survey data
 * Performs aggregation and percentage analysis
-* Visualizes insights using charts
+* Generates visual insights using charts
 * Provides an **interactive dashboard** for real-time exploration
+
+---
+
+## 🧠 Workflow
+
+```text
+Data Generation → Data Cleaning → Analysis → Visualization → Dashboard → Insights
+```
 
 ---
 
@@ -38,17 +62,20 @@ This project builds a **Poll Results Visualizer** that:
 ✅ Data cleaning and preprocessing
 ✅ Vote share and percentage analysis
 ✅ Region-wise and demographic insights
-✅ Multiple visualizations (bar, pie, stacked charts)
-✅ Interactive dashboard with filters
-✅ KPI metrics (Total Responses, Regions, Age Groups)
 
----
+### 📊 Visualizations:
 
-## 🧠 Workflow
+* Bar chart
+* Pie chart
+* Stacked charts
 
-```
-Data Generation → Data Cleaning → Analysis → Visualization → Dashboard → Insights
-```
+✅ Interactive Streamlit dashboard
+✅ Filters (Region, Age Group)
+✅ KPI metrics:
+
+* Total responses
+* Unique regions
+* Age groups
 
 ---
 
@@ -82,18 +109,83 @@ Data Generation → Data Cleaning → Analysis → Visualization → Dashboard �
 
 ---
 
-## 📁 Output Files
+## 📁 Output Charts
 
 ![Outputs](images/outputs_folder.png)
 
 ---
 
-## ▶️ How to Run the Project
+## 📊 Sample Insights
 
-### 1️⃣ Clone the Repository
+* 🏆 Product B is the most preferred product
+* ❌ Product C is the least preferred product
+* 🌍 Regional preferences vary significantly
+* 👥 Age groups show different behavior patterns
 
+---
+
+## 💼 Real-World Use Cases
+
+* Election poll analysis
+* Customer feedback analysis
+* Product preference studies
+* Employee satisfaction surveys
+* Market research
+
+---
+
+## 📁 Project Structure
+
+```bash
+Poll-Results-Visualizer/
+│
+├── data/
+│   └── poll_data.csv
+│
+├── src/
+│   ├── data_generator.py
+│   ├── data_cleaning.py
+│   ├── analysis.py
+│   ├── visualization.py
+│   ├── insights.py
+│
+├── outputs/
+│   ├── bar_chart.png
+│   ├── pie_chart.png
+│   ├── region_chart.png
+│   └── age_chart.png
+│
+├── app/
+│   └── dashboard.py
+│
+├── notebooks/
+│   └── eda.ipynb
+│
+├── images/
+│   ├── dashboard_full.png
+│   ├── dashboard_filtered.png
+│   ├── metrics.png
+│   ├── bar_chart_dashboard.png
+│   ├── dataset_preview.png
+│   ├── outputs_folder.png
+│
+├── main.py
+├── requirements.txt
+└── README.md
 ```
+<<<<<<< HEAD
 git clone https://github.com/Vayu-143/Poll-Results-Visualizer
+=======
+
+---
+
+## ▶️ How to Run the Project Locally
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Vayu-143/Poll-Results-Visualizer.git
+>>>>>>> 8dc8367 (Final README with GitHub + Live links)
 cd Poll-Results-Visualizer
 ```
 
@@ -101,7 +193,7 @@ cd Poll-Results-Visualizer
 
 ### 2️⃣ Create Virtual Environment
 
-```
+```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
 ```
@@ -110,15 +202,15 @@ venv\Scripts\activate   # Windows
 
 ### 3️⃣ Install Dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-### 4️⃣ Run Main Project
+### 4️⃣ Run Data Pipeline
 
-```
+```bash
 python main.py
 ```
 
@@ -126,28 +218,25 @@ python main.py
 
 ### 5️⃣ Run Dashboard
 
-```
+```bash
 streamlit run app/dashboard.py
 ```
 
 ---
 
-## 📊 Sample Insights
+## 🎤 Interview Explanation
 
-* 🏆 Product B is the most preferred product
-* ❌ Product C is the least preferred
-* 🌍 Regional preferences vary significantly
-* 👥 Different age groups show different trends
+> “I built an end-to-end Poll Results Visualizer where I generated and cleaned survey data, performed analysis using Pandas, created visualizations, and developed an interactive Streamlit dashboard with filters and KPIs for real-time insights.”
 
 ---
 
-## 💼 Real-World Use Cases
+## 📌 Key Learnings
 
-* Election poll analysis
-* Customer feedback analysis
-* Product preference research
-* Employee satisfaction surveys
-* Market research
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Data visualization techniques
+* Dashboard development with Streamlit
+* End-to-end analytics workflow
 
 ---
 
@@ -156,42 +245,8 @@ streamlit run app/dashboard.py
 * 🔥 Real-time data integration (Google Forms/API)
 * 🔥 SQL database integration
 * 🔥 Power BI dashboard version
-* 🔥 Sentiment analysis for text responses
-* 🔥 Deployment with public URL
-
----
-
-## 🎤 Interview Explanation
-
-> "This project demonstrates my ability to build an end-to-end data analytics pipeline. I generated and cleaned data, performed analysis using Pandas, created visualizations, and built an interactive Streamlit dashboard to derive actionable insights."
-
----
-
-## 📌 Key Learnings
-
-* Data preprocessing and cleaning
-* Exploratory Data Analysis (EDA)
-* Data visualization techniques
-* Dashboard development
-* End-to-end analytics workflow
-
----
-
-## ⭐ Project Structure
-
-```
-Poll-Results-Visualizer/
-│
-├── data/
-├── src/
-├── outputs/
-├── app/
-├── notebooks/
-├── images/
-├── main.py
-├── requirements.txt
-└── README.md
-```
+* 🔥 Sentiment analysis on open-ended responses
+* 🔥 Machine learning for predictions
 
 ---
 
@@ -201,4 +256,6 @@ Vayunandan Mishra
 
 ---
 
-## 🌟 If you found this project useful, please ⭐ star the repo!
+## 🌟 Support
+
+If you found this project useful, please ⭐ star the repository!
